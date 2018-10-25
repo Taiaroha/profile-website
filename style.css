@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Lobster|Playfair+Display');
+
+/*
+font-family: 'Anton', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Playfair Display', serif;
+*/
+
+/*==============================================================================
+                            ALL
+==============================================================================*/
+
+* {
+/*  margin: 0;  */
+  box-sizing: border-box;
+}
+ 
+body {
+    background-color: #232323;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+/*==============================================================================
+                            INDEX PAGE
+==============================================================================*/
+
+
+/*---------------------------- header row ----------------------------*/
+
+
+#header {
+    width: 100%;
+    height: 250px;
+
+}
+
+#headerLeft,
+#headerCentre,
+#headerRight {
+    float: left;
+/*    margin: 30px;*/
+}
+
+#headerCentre {
+    width: 60%;
+    margin: 1% 5%;
+    text-align: center;
+    background-color: #474448;
+}
+
+#headerLeft,
+#headerRight {
+    width: 15%;
+}
+
+#headerRight {
+    float: right;
+    height: 100%;
+}
+
+#nav {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.menuItem {
+    float: left;
+    margin: 0 50px;
+}
+
+#enrol {
+    clear: both;
+}
+
+#tw-logo {
+    height: 100%;
+}
+
+/*---------------------------- lower row ----------------------------*/
+#middle {
+    width: 100%;
+    height: 500px;
+}
+
+#middleLeft,
+#middleRight {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#middleRight {
+    
+}
+
+#promoVid {
+    width: 100%;
+    height: 100%;
+}
+
+.cardToa,
+.cardTu,
+.cardOra,
+.cardMaori {
+    width: calc(50% - 80px);
+    height: calc(50% - 80px);
+    float: left;
+    font-size: 15px;
+    padding: 40px;
+}
+
+/*---------------------------- bottom row ----------------------------*/
+#lower {
+    width: 100%;
+    height: 400px;
+}
+
+#lowerLeft,
+#lowerMiddle,
+#lowerRight {
+    width: 33%;
+    float: left;
+    height: 100%;
+}
+
+#gmap_canvas {
+    width: 100%;
+    height: 100%;
+}
+
+#lowerMiddle,
+#lowerRight {
+    padding: 40px;
+    width: calc(33%  - 80px);
+    height: calc(100%  - 80px);
+}
+
+/*==============================================================================
+                            KIA TU PAGE
+==============================================================================*/
+#bodytu{
+    background-image: url(blackboard.jpg);
+}
+
+#sidebarTu{
+    width:750px;
+    float: left;
+   
+}
+
+#scienceHeading {
+    float: left;
+}
+
+#sciencePhoto {
+    float: left;
+    width: 200px;
+    margin-left: 80px
+}
+
+#scienceText {
+    clear: both;
+}
+
+
+#maincontenttu{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#maincolumn {
+    Width: 50%;
+}
+
+#navagation{
+    width: 280px;
+    height: 400px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    right:0;
+    bottom:0
+}
+
+
+#headerCentreKiaTu {
+    width: 60%;
+    margin: 1% 5%;
+    text-align: center;
+    float: left;
+}
+
+
+
+/*=======================================================================================
+                                          Kia Ora Page
+=======================================================================================*/
+
+#BodyOra{
+    background-image: url(boxing.jpg);
+    height: 700px; 
+}
+        
+.card{
+    width:800px;
+    height:200px;
+    margin: 20px;
+    color: white;
+
+}
+
+#mainArea{
+    float:left; 
+}
+
+#sideOra{
+    float: left;
+    width:800px;
+    height: 200px;
+}
+
+/*=======================================================================================================
+                                      Kia Maori
+=======================================================================================================*/
+
+/* this is how you write a comment in CSS */
+
+/* these are my CSS notes:
+CSS stand for cascading stlyesheet
+*/
+
+
+h2{
+    color: white;
+     font-family: 'Playfair Display', serif;   
+        
+}
+
+h3{ color:white;
+     font-family: 'Archivo Black', sans-serif;
+}
+p{ color:white}
+
+
+h1{ color:white;
+    font-family: 'Teko', sans-serif;
+
+} 
+
+li{ color: white}
+
+#bodymaori{
+    background-image: url(https://wallpaper-house.com/data/out/9/wallpaper2you_367464.jpg);
+    background-repeat: repeat-x;
+    background-color: black
+        
+}
+
+.sidebar{ 
+    width: 700px;
+    height: 1000px;  
+    float: left;
+}
+
+#maincontent{
+    width: 580px;
+    height: 1000px;
+    float: left
+}
+
+#mainContentLeft{
+    float: left
+}
+
+#mainContentRight{
+    width:250px;
+    margin-left: 20px;
+}
+ 
+#navagation{
+    width: 500px;
+    height: 260px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    right:0;
+    bottom:0
+}
+
+
+
